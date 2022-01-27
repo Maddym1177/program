@@ -1,0 +1,26 @@
+body ,html {
+    height: 100%;
+}
+.m-img {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("img-1.jpg");
+    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+h1{
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+h3{
+    text-shadow: 0.5px 0.5px rgb(235, 207, 155);
+}
